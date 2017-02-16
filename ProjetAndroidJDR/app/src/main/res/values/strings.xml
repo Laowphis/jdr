@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ProjetAndroidJDR</string>
+    <string name="New_Character">New Character</string>
+    <string name="Dice">Dice</string>
+    <string name="Cards">Cards</string>
+    <string name="Name">Name</string>
+    <string name="Race">Race</string>
+    <string name="Class">Class</string>
+    <string name="GeneStats">Generat Stats</string>
+    <string name="GeneQualityDefault">Generate Quality/Default</string>
+    <string name="Finish">Finish</string>
+    <string name="GeneChance">Generate Chance</string>
+    <string name="View">Views</string>
+    <string name="Return">Return</string>
+    <string name="MesChance">Vous ne pouvez tirez la chance qu une seul fois</string>
+    <string-array name="race">
+        <item> Humain </item>
+        <item> Dwarf </item>
+        <item> Elfe </item>
+        <item> Orc </item>
+        <item> Troll </item>
+        <item> Gnome </item>
+    </string-array>
+    <string-array name="jobM">
+        <item> Magicien </item>
+        <item> Mercenaire </item>
+        <item> Guerrier </item>
+        <item> Chasseur de prime </item>
+        <item> Bard / Agitateur </item>
+        <item> Ingénieur </item>
+        <item> Druide </item>
+        <item> Marchand </item>
+        <item> Voleur / Assassin </item>
+        <item> Chaman </item>
+        <item> Prêtre </item>
+        <item> Artisan </item>
+    </string-array>
+    <string-array name="jobC">
+        <item> Technomancien </item>
+        <item> Mercenaire </item>
+        <item> Pistoleros / Samourai de rue </item>
+        <item> Chasseur de prime </item>
+        <item> Chanteur / Presentateur </item>
+        <item> Ingénieur </item>
+        <item> Dompteur </item>
+        <item> Marchand </item>
+        <item> Voleur / Assassin </item>
+        <item> Chaman </item>
+        <item> Prêtre </item>
+        <item> Artisan </item>
+    </string-array>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9f704222">
+
+    <TextView
+        android:text="name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="race"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tRace"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:text="classe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tClasse"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Cc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="cc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tCc"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Ct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="ct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tCt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Force"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="force"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tforce"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Agilité"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="agilite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tagilite"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Endurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="endurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tend"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Charisme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="charisme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tCha"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Inteligence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="inteligence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tInt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Mental"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="formental"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tFm"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:text="chance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCh"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
